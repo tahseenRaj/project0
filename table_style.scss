@@ -1,0 +1,32 @@
+$color1: #37b4d3;
+$color2: #2ca2c0;
+
+table{
+    font-family: sans-serif;
+    font-size: 15px;
+
+    tr{
+        border-bottom: 2px solid silver;
+        border-collapse: collapse;  }
+
+    th, td{
+        text-align: center;
+        padding: 10px;
+        vertical-align: middle;  }
+    
+    thead{
+        tr{
+            background-color: $color1;
+            color: white;
+            font-size: 16px;  }
+    }
+    tbody{
+        .custom-align {
+            text-align: left;  }
+
+        tr:hover{
+            background-color: #ececec;
+            border-bottom: 2px solid $color2;  }
+    }
+
+}

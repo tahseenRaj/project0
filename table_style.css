@@ -1,0 +1,21 @@
+table {
+  font-family: sans-serif;
+  font-size: 15px; }
+  table tr {
+    border-bottom: 2px solid silver;
+    border-collapse: collapse; }
+  table th, table td {
+    text-align: center;
+    padding: 10px;
+    vertical-align: middle; }
+  table thead tr {
+    background-color: #37b4d3;
+    color: white;
+    font-size: 16px; }
+  table tbody .custom-align {
+    text-align: left; }
+  table tbody tr:hover {
+    background-color: #ececec;
+    border-bottom: 2px solid #2ca2c0; }
+
+/*# sourceMappingURL=table_style.css.map */

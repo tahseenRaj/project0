@@ -1,0 +1,12 @@
+.custom-margin{
+    margin-top: 2rem;
+}
+
+.custom-img{
+    min-height: 200px;
+    max-height: 300px;
+}
+
+.h-color{
+    color: steelblue;
+}
